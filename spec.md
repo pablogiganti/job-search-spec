@@ -1,6 +1,6 @@
-spec_version=2026-08-08.1
-spec_sha256=57d076db9f5ee85e
-generated_at=2026-08-08T11:25:20.883Z
+spec_version=2026-08-09.1
+spec_sha256=3e97b67fdfc6cf66
+generated_at=2026-08-09T22:20:24.959Z
 
 # Spec de búsqueda de vacantes — Pablo (generado, NO editar a mano)
 
@@ -9,8 +9,18 @@ spec_version, ABORTA y devuelve únicamente: SPEC | UNKNOWN | SPEC_FETCH_ERROR
 Nunca uses un spec anterior, memoria ni contexto de proyecto como sustituto.
 
 ## Perfil de búsqueda
-Project Manager senior (20 años). También encajo como: Project Manager, Technical Product Manager, Program Manager, Scrum Master, Growth Product Manager, Product Owner, Technical PM, Platform Product Manager, AI Product Manager, Senior Product Manager, Group Product Manager, Head of Product.
 Nivel: Senior / Lead / Staff / Principal. Solo remoto (base: Barcelona, España).
+
+ROL CENTRAL — PRIORIDAD 1 (la mayoría de tus búsquedas deben usar ESTOS títulos):
+Project Manager, Program Manager, Scrum Master, Delivery Manager, Delivery Lead, Agile Coach, Agile Delivery.
+Mi carrera es de Project/Program/Delivery Manager senior (20 años).
+
+TAMBIÉN ENCAJO — prioridad 2 (complemento, nunca la mayoría del resultado):
+Technical Product Manager, Growth Product Manager, Product Owner, Technical PM, Platform Product Manager, AI Product Manager, Senior Product Manager, Group Product Manager.
+
+REGLA DE DISTRIBUCIÓN (dura): al menos la MITAD de las vacantes de cada entrega
+deben ser del ROL CENTRAL (Project/Program/Delivery/Scrum). Si tu búsqueda solo
+encuentra Product Manager, busca más con los títulos centrales antes de entregar.
 
 ## Elegibilidad geográfica (regla dura)
 - SÍ: remoto desde España; remoto Europa/EMEA/UK/Irlanda; remoto worldwide; Canadá.
@@ -40,6 +50,6 @@ Descarta vacantes que publiquen salario claramente por debajo de 70K EUR.
 - No dedupliques contra días anteriores: el sistema receptor deduplica.
 
 ## Contrato de salida (estricto — sin prosa, sin markdown, sin citas)
-Primera línea:  SPEC | 2026-08-08.1 | OK
+Primera línea:  SPEC | 2026-08-09.1 | OK
 Después, una vacante por línea:  titulo | empresa | url | ubicacion | fecha_publicacion
-Si no hay resultados válidos:  SPEC | 2026-08-08.1 | SIN_NOVEDADES
+Si no hay resultados válidos:  SPEC | 2026-08-09.1 | SIN_NOVEDADES
