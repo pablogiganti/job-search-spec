@@ -1,6 +1,6 @@
-spec_version=2026-08-09.1
-spec_sha256=3e97b67fdfc6cf66
-generated_at=2026-08-09T22:20:24.959Z
+spec_version=2026-08-10.1
+spec_sha256=edbe6a0de972020e
+generated_at=2026-08-10T07:24:03.661Z
 
 # Spec de búsqueda de vacantes — Pablo (generado, NO editar a mano)
 
@@ -50,6 +50,6 @@ Descarta vacantes que publiquen salario claramente por debajo de 70K EUR.
 - No dedupliques contra días anteriores: el sistema receptor deduplica.
 
 ## Contrato de salida (estricto — sin prosa, sin markdown, sin citas)
-Primera línea:  SPEC | 2026-08-09.1 | OK
+Primera línea:  SPEC | 2026-08-10.1 | OK
 Después, una vacante por línea:  titulo | empresa | url | ubicacion | fecha_publicacion
-Si no hay resultados válidos:  SPEC | 2026-08-09.1 | SIN_NOVEDADES
+Si no hay resultados válidos:  SPEC | 2026-08-10.1 | SIN_NOVEDADES
