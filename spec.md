@@ -1,6 +1,6 @@
-spec_version=2026-08-10.1
-spec_sha256=edbe6a0de972020e
-generated_at=2026-08-10T07:24:03.661Z
+spec_version=2026-08-10.3
+spec_sha256=faccdecd18db64cc
+generated_at=2026-08-10T07:44:15.810Z
 
 # Spec de búsqueda de vacantes — Pablo (generado, NO editar a mano)
 
@@ -23,9 +23,10 @@ deben ser del ROL CENTRAL (Project/Program/Delivery/Scrum). Si tu búsqueda solo
 encuentra Product Manager, busca más con los títulos centrales antes de entregar.
 
 ## Elegibilidad geográfica (regla dura)
-- SÍ: remoto desde España; remoto Europa/EMEA/UK/Irlanda; remoto worldwide; Canadá.
-- NO: roles que exijan residencia o autorización en EEUU; roles locales de
-  India, APAC, LATAM (salvo remoto abierto a Europa).
+- SÍ: remoto desde España; remoto Europa/EMEA/UK/Irlanda; remoto worldwide.
+- NO: roles que exijan residencia o autorización en EEUU ni Canadá.
+  "Remote UK" sin mención explícita de EU/España significa remoto DENTRO de UK: descártalo.
+- NO: roles locales de India, APAC, LATAM (salvo remoto abierto a Europa).
 
 ## Sectores
 - PRIORIDAD: Media & Entertainment, Gaming, Music / Events tech, Publishing / Digital content, Adtech / Martech platforms, Creative SaaS / Design tools, Arts & Culture / Streaming.
@@ -43,13 +44,20 @@ encuentra Product Manager, busca más con los títulos centrales antes de entreg
 Descarta vacantes que publiquen salario claramente por debajo de 70K EUR.
 
 ## Calidad de resultados (crítico)
-- Solo vacantes publicadas en las últimas 24-48h.
+- Vacantes publicadas en los últimos 3 días.
 - URL ORIGINAL del empleador o su ATS (greenhouse, ashby, lever, workable,
   workday, careers propia). Nada de páginas de búsqueda de agregadores.
 - Solo URLs abiertas y verificadas en esta ejecución. PROHIBIDO inventarlas.
 - No dedupliques contra días anteriores: el sistema receptor deduplica.
+- ENTREGA SIEMPRE lo que encuentres. La regla de distribución ordena tu esfuerzo
+  de búsqueda, NO justifica retener resultados: si tras buscar con los títulos
+  centrales sigues teniendo solo prioridad 2, entrégalos igualmente con status OK.
+  SIN_NOVEDADES es SOLO para cuando no sobrevive ninguna vacante válida.
 
 ## Contrato de salida (estricto — sin prosa, sin markdown, sin citas)
-Primera línea:  SPEC | 2026-08-10.1 | OK
+Primera línea:  SPEC | 2026-08-10.3 | OK
+Segunda línea SIEMPRE (auditoría, incluso con SIN_NOVEDADES):
+  STATS | candidatas=<N> | descartadas_geo=<N> | descartadas_titulo=<N> | descartadas_fecha=<N> | descartadas_otro=<N>
+  (candidatas = vacantes que miraste antes de filtrar; si no puedes contarlas, pon ?)
 Después, una vacante por línea:  titulo | empresa | url | ubicacion | fecha_publicacion
-Si no hay resultados válidos:  SPEC | 2026-08-10.1 | SIN_NOVEDADES
+Si no hay resultados válidos:  SPEC | 2026-08-10.3 | SIN_NOVEDADES  (seguido igualmente de la línea STATS)
