@@ -1,6 +1,6 @@
-spec_version=2026-08-10.3
-spec_sha256=faccdecd18db64cc
-generated_at=2026-08-10T07:44:15.810Z
+spec_version=2026-08-12.1
+spec_sha256=faf6c523fa4f5df7
+generated_at=2026-08-12T06:45:20.003Z
 
 # Spec de búsqueda de vacantes — Pablo (generado, NO editar a mano)
 
@@ -13,7 +13,9 @@ Nivel: Senior / Lead / Staff / Principal. Solo remoto (base: Barcelona, España)
 
 ROL CENTRAL — PRIORIDAD 1 (la mayoría de tus búsquedas deben usar ESTOS títulos):
 Project Manager, Program Manager, Scrum Master, Delivery Manager, Delivery Lead, Agile Coach, Agile Delivery.
-Mi carrera es de Project/Program/Delivery Manager senior (20 años).
+Mi función es Project/Program/Delivery Manager (desde 2022 con ese título;
+20+ años de carrera profesional en total, no de PM).
+No descartes vacantes que pidan 2-5 años de gestión de proyectos: entran en rango.
 
 TAMBIÉN ENCAJO — prioridad 2 (complemento, nunca la mayoría del resultado):
 Technical Product Manager, Growth Product Manager, Product Owner, Technical PM, Platform Product Manager, AI Product Manager, Senior Product Manager, Group Product Manager.
@@ -37,7 +39,7 @@ encuentra Product Manager, busca más con los títulos centrales antes de entreg
 - Niveles: Junior, Associate, Internship, Graduate, Apprentice, Trainee, Werkstudent, Stagiaire, Jr..
 - Dominios: Construction, Clinical, Environmental, Roofing, Cabling, Gas Power, Solid Waste, Commissioning, PFAS, Geologist.
 - Stacks como especialización del rol: .NET, Java , iOS, Android, PHP, Ruby, Embedded, Firmware, Blockchain, Web3, Crypto, Mainframe, COBOL, Product Marketing Manager, PMM.
-- Empresas vetadas: Neotalent, Neotalent Conclusion, Conclusion.
+- Empresas vetadas: Neotalent, Neotalent Conclusion, Conclusion, Turner & Townsend, Turner and Townsend.
 - Contratos temporales/fixed-term: solo si son excepcionales.
 
 ## Compensación
@@ -55,9 +57,9 @@ Descarta vacantes que publiquen salario claramente por debajo de 70K EUR.
   SIN_NOVEDADES es SOLO para cuando no sobrevive ninguna vacante válida.
 
 ## Contrato de salida (estricto — sin prosa, sin markdown, sin citas)
-Primera línea:  SPEC | 2026-08-10.3 | OK
+Primera línea:  SPEC | 2026-08-12.1 | OK
 Segunda línea SIEMPRE (auditoría, incluso con SIN_NOVEDADES):
   STATS | candidatas=<N> | descartadas_geo=<N> | descartadas_titulo=<N> | descartadas_fecha=<N> | descartadas_otro=<N>
   (candidatas = vacantes que miraste antes de filtrar; si no puedes contarlas, pon ?)
 Después, una vacante por línea:  titulo | empresa | url | ubicacion | fecha_publicacion
-Si no hay resultados válidos:  SPEC | 2026-08-10.3 | SIN_NOVEDADES  (seguido igualmente de la línea STATS)
+Si no hay resultados válidos:  SPEC | 2026-08-12.1 | SIN_NOVEDADES  (seguido igualmente de la línea STATS)
