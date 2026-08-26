@@ -1,6 +1,6 @@
-spec_version=2026-08-26.1
-spec_sha256=cc1fa9bf2674ab25
-generated_at=2026-08-26T16:16:28.281Z
+spec_version=2026-08-26.2
+spec_sha256=bdb08ecee6172944
+generated_at=2026-08-26T18:08:44.306Z
 
 # Spec de búsqueda de vacantes — Pablo (generado, NO editar a mano)
 
@@ -25,10 +25,20 @@ deben ser del ROL CENTRAL (Project/Program/Delivery/Scrum). Si tu búsqueda solo
 encuentra Product Manager, busca más con los títulos centrales antes de entregar.
 
 ## Elegibilidad geográfica (regla dura)
-- SÍ: remoto desde España; remoto Europa/EMEA/UK/Irlanda; remoto worldwide.
+NO ME MUDO FUERA DE ESPAÑA. Soy ciudadano de la UE, así que no tengo problema
+legal, pero eso no significa que me traslade: son dos cosas distintas. Dentro de
+España sí me plantearía mudarme.
+- SÍ: remoto desde España; remoto Europa/EMEA sin país atado; remoto worldwide;
+  listas explícitas de países que incluyan España; cualquier ubicación DENTRO de
+  España (Madrid, Barcelona, Valencia, Zaragoza, presencial o híbrido).
+- NO: cualquier rol que exija residir fuera de España, aunque sea remoto y aunque
+  sea la UE. Un "remoto" con país pegado NO es remoto, es residencia obligatoria:
+  "Remote, Ireland", "AUT-Remote", "DE-Germany-Remote", "Remote (within UK)",
+  "Home Office Portugal" y equivalentes son DESCARTE.
+- NO: presencial o híbrido en cualquier ciudad no española (Londres, Dublín,
+  Berlín, París, Milán, Estocolmo, Ámsterdam, Zúrich, Dubái...).
 - NO: roles que exijan residencia o autorización en EEUU ni Canadá.
-  "Remote UK" sin mención explícita de EU/España significa remoto DENTRO de UK: descártalo.
-- NO: roles locales de India, APAC, LATAM (salvo remoto abierto a Europa).
+- NO: roles locales de India, APAC, LATAM (salvo remoto abierto a Europa o a España).
 
 ## Sectores
 - PRIORIDAD: Media & Entertainment, Gaming, Music / Events tech, Publishing / Digital content, Adtech / Martech platforms, Creative SaaS / Design tools, Arts & Culture / Streaming.
@@ -57,9 +67,9 @@ Descarta vacantes que publiquen salario claramente por debajo de 70K EUR.
   SIN_NOVEDADES es SOLO para cuando no sobrevive ninguna vacante válida.
 
 ## Contrato de salida (estricto — sin prosa, sin markdown, sin citas)
-Primera línea:  SPEC | 2026-08-26.1 | OK
+Primera línea:  SPEC | 2026-08-26.2 | OK
 Segunda línea SIEMPRE (auditoría, incluso con SIN_NOVEDADES):
   STATS | candidatas=<N> | descartadas_geo=<N> | descartadas_titulo=<N> | descartadas_fecha=<N> | descartadas_otro=<N>
   (candidatas = vacantes que miraste antes de filtrar; si no puedes contarlas, pon ?)
 Después, una vacante por línea:  titulo | empresa | url | ubicacion | fecha_publicacion
-Si no hay resultados válidos:  SPEC | 2026-08-26.1 | SIN_NOVEDADES  (seguido igualmente de la línea STATS)
+Si no hay resultados válidos:  SPEC | 2026-08-26.2 | SIN_NOVEDADES  (seguido igualmente de la línea STATS)
