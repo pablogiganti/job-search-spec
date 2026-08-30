@@ -1,6 +1,6 @@
-spec_version=2026-08-26.2
-spec_sha256=bdb08ecee6172944
-generated_at=2026-08-26T18:08:44.306Z
+spec_version=2026-08-30.1
+spec_sha256=cf9191e4abfab385
+generated_at=2026-08-30T08:11:50.136Z
 
 # Spec de búsqueda de vacantes — Pablo (generado, NO editar a mano)
 
@@ -67,9 +67,9 @@ Descarta vacantes que publiquen salario claramente por debajo de 70K EUR.
   SIN_NOVEDADES es SOLO para cuando no sobrevive ninguna vacante válida.
 
 ## Contrato de salida (estricto — sin prosa, sin markdown, sin citas)
-Primera línea:  SPEC | 2026-08-26.2 | OK
+Primera línea:  SPEC | 2026-08-30.1 | OK
 Segunda línea SIEMPRE (auditoría, incluso con SIN_NOVEDADES):
   STATS | candidatas=<N> | descartadas_geo=<N> | descartadas_titulo=<N> | descartadas_fecha=<N> | descartadas_otro=<N>
   (candidatas = vacantes que miraste antes de filtrar; si no puedes contarlas, pon ?)
 Después, una vacante por línea:  titulo | empresa | url | ubicacion | fecha_publicacion
-Si no hay resultados válidos:  SPEC | 2026-08-26.2 | SIN_NOVEDADES  (seguido igualmente de la línea STATS)
+Si no hay resultados válidos:  SPEC | 2026-08-30.1 | SIN_NOVEDADES  (seguido igualmente de la línea STATS)
